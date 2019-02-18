@@ -8,6 +8,13 @@ The goal, we want to download .csv files from (luftdaten.info and madavi.de) usi
 
 Downloading a month worth of data for a particular sensor off luftdaten so far is achieved by the command:
 
-```python luftdaten.py -sd 2019-01-15 -ed 2019-02-15 -id 15092```
+```luftdaten.py -sd 2019-01-15 -ed 2019-02-15 -id 15092```
 
 Where ```-sd``` is start date and ```-ed``` is end date, ```-id``` is the luftdaten id of the sensor.
+
+# Dependencies 
+
+Getting the script to work requires two prerequisites, obtained through:
+
+```pip install requests```
+```pip install python-dateutil```

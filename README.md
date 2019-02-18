@@ -17,4 +17,5 @@ Where ```-sd``` is start date and ```-ed``` is end date, ```-id``` is the luftda
 Getting the script to work requires two prerequisites, obtained through:
 
 ```pip install requests```
+
 ```pip install python-dateutil```

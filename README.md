@@ -6,7 +6,7 @@ The goal, we want to download .csv files from (luftdaten.info and madavi.de) usi
 
 # Usage
 
-Downloading a month worth of data for a particular sensor off luftdaten so far is achieved by the command:
+Downloading a month worth of data for a particular sensor off luftdaten so far is achieved with the command:
 
 ```luftdaten.py -sd 2019-01-15 -ed 2019-02-15 -id 15092```
 
